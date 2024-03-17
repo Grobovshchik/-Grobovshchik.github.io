@@ -1,0 +1,137 @@
+@font-face {
+    font-family: "Reaverockg";
+    src: url("../fonts/Reaverockg.otf");
+}
+@font-face {
+    font-family: "Blackcraft";
+    src: url("../fonts/Blackcraft.ttf");
+}
+@font-face {
+    font-family: "Cyberpunk";
+    src: url("../fonts/Cyberpunk.ttf");
+}
+@font-face {
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat-Light.ttf");
+}
+@font-face {
+    font-family: "raleway-black";
+    src: url("../fonts/raleway-black.woff2");
+}
+@font-face {
+    font-family: "raleway-regular";
+    src: url("../fonts/raleway-regular.woff2");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* 
+
+#ffffff
+
+#012E40
+
+#F20505 
+
+*/
+
+
+
+body{
+    background-image: url('/img/main.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    width: 70px;
+    height: 50px;
+
+    position: fixed;
+    top: 30px;
+    left: 70px;
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: 0px 0px 25px #ffffff;
+    border-radius: 25px;
+    padding: 15px 20px;
+}
+
+.main_button {
+    
+    display: flex;
+    position: fixed;
+    margin: 15px;
+    outline: none;
+    border: none;
+    padding-left: 750px;
+}
+.button_1 {
+    
+    padding: 8px 10px;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 25px;
+    font-family: Blackcraft, sans-serif;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 4px;
+    box-shadow: 0px 0px 40px #ffffff;
+}
+.button_2 {
+    
+    padding: 8px 45px;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 25px;
+    font-family: Blackcraft, sans-serif;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 4px;
+    box-shadow: 0px 0px 40px #ffffff;
+}
+.button_3 {
+    
+    padding: 8px 10px;
+    border-radius: 25px;
+    font-size: 30px;
+    margin: 25px;
+    font-family: Blackcraft, sans-serif;
+    background: none;
+    color: #ffffff;
+    cursor: pointer;
+    letter-spacing: 4px;
+    box-shadow: 0px 0px 40px #ffffff;
+}
+.main_text {
+    
+    
+    
+}
+.text_CYBER {
+    
+    font-size: 155px;
+    padding-top: 245px;
+    padding-left: 45px;
+    font-family: Cyberpunk, sans-serif;
+    
+    color: #ffffff;
+}
+.text_Столица {
+    
+    font-size: 100px;
+    padding-top: 10px;
+    padding-left: 370px;
+    font-family: Cyberpunk, sans-serif;
+    
+    color: #ffffff;
+}
+

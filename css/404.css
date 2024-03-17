@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url('/img/error_404.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  
+}
+
+/* .text{
+  color: #ffffff;
+  margin: 0;
+  font-size: 25px;
+  letter-spacing: 4px;
+
+  position: fixed;
+  top: 85%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  padding: 0 5px;
+  border-left: 15px solid #ee1b52;
+  border-right: 15px solid #69c9d0;
+} */
+
+.return {
+  letter-spacing: 5px;
+  color: #ffffff;
+  position: fixed;
+  text-decoration: none;
+  font-family: ffffffff;
+  font-size: 20px;
+  font-weight: bold;
+  top: 78%;
+  left: 57%;
+  padding: 20px 40px;
+  border: 2px solid #000;
+  box-shadow: 10px 10px 0 #ee1b52;
+  transition: .1s;
+}
+
+.return:hover {
+  box-shadow: -10px -10px 0 #69c9d0;
+}
+
+/* ------------------ */
+.numberError {
+  font-family: Blackcraft;
+  position: fixed;
+  top: 40%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+.error {
+  
+  color: #ffffff;
+  margin: 0;
+  font-size: 350px;
+  letter-spacing: 10px;
+}
+
+.error::before, .error::after {
+  content: attr(data-text);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+
+.error::before {
+  color: #ee1b52;
+  animation: glitch 1s infinite;
+}
+.error::after {
+  color: #69c9d0;
+  animation: glitch 2s infinite;
+}
+
+.notFound {
+  font-family: Blackcraft;
+  color: #ffffff;
+  position: fixed;
+  top: 65%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  padding: 0 5px;
+  border-left: 15px solid #ee1b52;
+  border-right: 15px solid #69c9d0;
+}
+
+@keyframes glitch {
+  0% {
+    top: -5px;
+    left: -3px;
+  }
+  25% {
+    top: 0px;
+    left: -3px;
+  }
+  50% {
+    top: 5px;
+    left: 3px;
+  }
+  75% {
+    top: 0px;
+    left: 5px;
+  }
+  100% {
+    top: -5px;
+    left: -3px;
+  }
+}
